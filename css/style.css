@@ -70,9 +70,7 @@ HERO SECTION
   line-height: 1.7;
   margin-bottom: 4.8rem;
 }
-.margin-right-sm {
-  margin-right: 1.6rem !important;
-}
+
 .delivered-meals {
   display: flex;
   align-items: center;
@@ -238,6 +236,11 @@ MEALS SECTION
 .meal {
   box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
   border-radius: 9px;
+  transition: all 0.6s;
+}
+.meal:hover {
+  transform: translateY(-1.5rem);
+  box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.06);
 }
 .meal img {
   border-top-left-radius: 11px;
@@ -245,4 +248,64 @@ MEALS SECTION
 }
 .meal-content {
   padding: 3.2rem 4.8rem 4.8rem 4.8rem;
+}
+.all-recipes {
+  text-align: center;
+  font-size: 1.8rem;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+.list-icon {
+  width: 3.2rem;
+  height: 3.2rem;
+  color: #e67e22;
+}
+.list-item {
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+.section-testimonials {
+  background-color: #fae5d3;
+}
+.testimonials-container {
+  padding: 9.6rem;
+}
+.testimonial-text {
+  font-size: 1.8rem;
+  line-height: 1.8;
+  margin-bottom: 1.6rem;
+  font-style: italic;
+}
+.testimonial-name {
+  font-size: 1.6rem;
+  color: #777;
+}
+.testimonials {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4.8rem;
+}
+
+.testimonial-image {
+  width: 6.4rem;
+  border-radius: 50%;
+  margin-bottom: 1.2rem;
+}
+
+.gallery-item img {
+  width: 100%;
+  display: block;
+}
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.6rem;
+  padding: 1.6rem;
 }

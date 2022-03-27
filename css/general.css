@@ -191,6 +191,7 @@ GENERAL REUSABLE COMPONENTS
 .grid--4cols {
   grid-template-columns: repeat(4, 1fr);
 }
+
 .container {
   max-width: 120rem;
   margin: 0 auto;
